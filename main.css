@@ -1,0 +1,67 @@
+/*  Position set up */
+
+h1, h2{
+  font-family: 'Oswald' , sans-serif;
+}
+
+*{
+  border:1px dashed red;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin:2px;
+}
+
+header{
+  float:left;
+  margin:0 auto;
+  height:523px;
+  width:1300px;
+  overflow:auto;
+  background-image:url('assets/header.jpg');
+}
+
+.main{
+  width:860px;
+  height:1008px;
+  float:left;
+  overflow:auto;
+
+}
+
+footer{
+  float:left;
+  margin:0 auto;
+  overflow:auto;
+  height:573px;
+  width:1300px;
+}
+
+.sidebar{
+  float:right;
+  overflow:auto;
+  width:440px;
+  height:1008px;
+}
+
+ul{
+  list-style:none;
+}
+
+
+/* Header Title Section Styling */
+
+.title{
+  display:block;
+  float:left;
+  margin-top:200px;
+  margin-left:400px;
+}
+
+.blog{
+  display:block;
+  float:left;
+  margin-top:1px;
+  margin-left:10px;
+}
