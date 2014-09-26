@@ -2,6 +2,8 @@
 
 h1, h2{
   font-family: 'Oswald' , sans-serif;
+  margin:0;
+  padding:0;
 }
 
 *{
@@ -23,7 +25,7 @@ header{
 }
 
 .main{
-  width:860px;
+  width:611px;
   height:1008px;
   float:left;
   overflow:auto;
@@ -123,3 +125,113 @@ ul{
   float:right;
   padding-left:5px;
 }
+
+/* Main Body Section Styling */
+.main{
+  padding-top:70px;
+  padding-left:160px;
+  padding-right:87px;
+}
+
+.headerTitle{
+  font-size:30px;
+  float:left;
+  clear:both;
+  line-height:1.15;
+}
+
+.headerTag{
+  padding-top:5px;
+  font-size:14px;
+}
+
+
+.headerTag a:first-child{
+  float:left;
+  text-decoration:none;
+}
+
+.headerTag a span{
+  float:left;
+  color:lightblue;
+  text-decoration:none;
+  padding-top:15px;
+}
+
+.headerTag:last-child span{
+  float:left;
+}
+
+.headerTag a:last-child{
+  float:left;
+  color:lightgray;
+  text-decoration:underline;
+  padding-top:18px;
+}
+
+
+.headerTag a img{
+  float:left;
+  border-radius:10px;
+  width:25px;
+  height:25px;
+  padding:5px;
+}
+
+.headerTag > span{
+  float:left;
+  color:lightgray;
+  padding-top:18px;
+  padding-left:17px;
+}
+
+article{
+  float:left;
+  clear:both;
+  color:gray;
+  font-size:18px;
+  line-height:1.5;
+}
+
+article a{
+  color:lightgray;
+}
+
+blockquote{
+  color:blue;
+  font-size:25px;
+  border-left: 1px solid gray;
+  margin-top:27px;
+  margin-left:10px;
+  padding-left:25px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+button{
+  margin:3px;
+  padding:0;
+  background-color:gray;
+  color:lightgray;
+  text-align:right;
+  height:30px;
+  padding-right:10px;
+}
+
+button img{
+  float:left;
+  padding-right:5px;
+  background-color:#333333;
+  width:32px;
+  height:100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Sidebar Styling */
+
+
+
+
+/*Footer Styling */
