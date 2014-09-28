@@ -11,6 +11,7 @@ body{
 
 h1, h2, h3{
   font-family: 'Oswald' , sans-serif;
+  color:rgba(8,52,82,1);
   margin:0;
   padding:0;
 }
@@ -49,6 +50,23 @@ ul{
   list-style:none;
 }
 
+/* Color scheme classes */
+.prussianBlue{
+  color:rgba(8,52,82,1);
+}
+
+.seaBlue{
+  color:RGBA(16, 109, 179, 1);
+}
+
+.prussianBlueBackground{
+background-color:rgba(8,52,82,1);
+}
+
+.casper{
+  color:RGBA(163, 179, 191, 1);
+}
+
 
 /* Header Title Section Styling */
 
@@ -78,9 +96,8 @@ ul{
   float:left;
   margin-left:496px;
   padding:4px;
-  font-size:17px;
+  font-size:15px;
   text-decoration:none;
-  color:black;
   line-height:.9;
 }
 
@@ -98,7 +115,6 @@ ul{
 .blog a span{
   float:left;
   text-decoration:none;
-  color:black;
   margin-top:10px;
 }
 
@@ -115,7 +131,6 @@ ul{
   text-decoration:none;
   font-size:18px;
   font-weight:bold;
-  color:black;
 }
 .about img{
   float:right;
@@ -149,7 +164,6 @@ ul{
 
 .headerTag a span{
   float:left;
-  color:lightblue;
   text-decoration:none;
   padding-top:15px;
 }
@@ -160,7 +174,6 @@ ul{
 
 .headerTag a:last-child{
   float:left;
-  color:lightgray;
   text-decoration:underline;
   padding-top:16px;
   padding-left:2px;
@@ -177,7 +190,6 @@ ul{
 
 .headerTag > span{
   float:left;
-  color:lightgray;
   padding-top:16px;
   padding-left:17px;
 }
@@ -185,7 +197,7 @@ ul{
 article{
   float:left;
   clear:both;
-  color:gray;
+  color:RGBA(94, 104, 111, 1);
   font-size:18px;
   line-height:1.5;
 }
@@ -195,9 +207,8 @@ article a{
 }
 
 blockquote{
-  color:blue;
-  font-size:25px;
-  border-left: 1px solid gray;
+  font-size:26px;
+  border-left: 2px solid RGBA(163, 179, 191, 1);
   margin-top:27px;
   margin-left:10px;
   padding-left:25px;
@@ -209,6 +220,8 @@ button{
   padding:0;
   height:30px;
   font-family: 'Open Sans', sans-serif;
+  border:none;
+  margin:3px;
 }
 
 button span:first-child{
@@ -216,20 +229,20 @@ button span:first-child{
   padding:0;
   height:100%;
   width:30px;
-  background-color:#444444;
+  background-color:RGBA(94, 104, 111, 1);
 }
 
 button img{
-  padding-top:6px;
+  padding-top:8px;
 }
 
 button span:last-child{
+  float:left;
   font-size:12px;
   color:white;
-  background-color:gray;
+  background-color:RGBA(163, 179, 191, 1);
   padding:10px;
   line-height:0.9;
-  height:100%
 }
 
 
@@ -257,7 +270,6 @@ button span:last-child{
   width:100%;
   margin:0 auto;
   clear:both;
-  color:blue;
   font-size:14px;
   text-decoration:none;
 }
@@ -274,9 +286,16 @@ button span:last-child{
 }
 
 .personInfo span a{
-  color:gray;
-  padding:10px;
-  border-right:.5px solid lightgray;
+  padding-right:8px;
+  padding-left:8px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-top:3px;
+  border-right:1px solid RGBA(251, 251, 251, 1);
+}
+
+.personInfo span a:last-child{
+  border-right:none;
 }
 
 .advertisement{
@@ -291,17 +310,15 @@ button span:last-child{
 .advertisement a span {
 float:right;
 font-size:15px;
-color:lightgray;
+text-decoration:underline;
 }
 
 .sidebarInfo h3{
-  color:blue;
   font-size:18px;
 }
 
 .sidebar p{
   margin-top:3px;
-  color:lightgray;
 
 }
 /*Footer Styling */
@@ -320,7 +337,6 @@ footer ul{
 .posts h2{
   width:100%;
   text-align:center;
-  color:blue;
   font-size:56px;
   line-height:.9;
   padding:48px;
@@ -359,7 +375,10 @@ font-family: 'Oswald' , sans-serif;
   float:left;
   width:100%;
   height:95px;
-  background-color:gray;
+}
+
+.ironyard a{
+  color:RGBA(163, 179, 191, 1);
 }
 
 .logo{
@@ -376,7 +395,6 @@ font-family: 'Oswald' , sans-serif;
 .logo a span{
   float:left;
   text-decoration:none;
-  color:white;
   font-size:14px;
   margin-top:10px;
 }
@@ -392,10 +410,9 @@ font-family: 'Oswald' , sans-serif;
 }
 
 .ironyard nav ul li a{
-  color:white;
   font-size:13px;
   text-height:0.9;
-  border-right:1px solid white;
+  border-right:1px solid RGBA(163, 179, 191, 1);
   text-decoration:none;
   padding-left:9px;
   padding-right:9px;
