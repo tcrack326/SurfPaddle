@@ -20,7 +20,6 @@ header{
   text-align:center;
   height:523px;
   width:1300px;
-  overflow:auto;
   background-image:url('assets/header.jpg');
 }
 
@@ -29,15 +28,13 @@ header{
   height:1008px;
   float:left;
   overflow:auto;
-
 }
 
 footer{
   float:left;
-  margin:0 auto;
-  overflow:auto;
   height:573px;
   width:1300px;
+  border-top:1px solid gray;
 }
 
 .sidebar{
@@ -305,12 +302,74 @@ color:lightgray;
 }
 
 .sidebar p{
-  margin:3px;
+  margin-top:3px;
   color:lightgray;
 
 }
 /*Footer Styling */
+footer ul{
+  float:left;
+  padding:0px;
+  margin:0px;
+  width:100%;
+}
 
-footer ul li{
+.posts{
+  width:100%;
+  clear:both;
+}
+
+.posts h2{
+  width:100%;
+  text-align:center;
+  color:blue;
+  font-size:56px;
+  line-height:.9;
+  padding:45px;
+}
+
+.posts ul{
+  clear:right;
+}
+
+.posts ul li{
+  float:left;
+  margin:0px;
+  width:24.8%;
+  height:330px;
+}
+
+.posts ul li a{
+text-decoration:none;
+font-family: 'Oswald' , sans-serif;
+}
+
+.posts ul li a span{
+  position:relative;
+  color:white;
+  width:220px;
+  font-size:28px;
+  bottom:56px;
+  left:16px;
+}
+/* hack for the third caption with wrapped text */
+.posts ul li a span#long{
+  bottom:95px;
+}
+
+.ironyard{
+  float:left;
+  width:100%;
+  height:95px;
+  background-color:gray;
+}
+
+.ironyard nav{
+  float:right;
+}
+
+
+
+.ironyard ul li{
   float:left;
 }
