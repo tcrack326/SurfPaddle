@@ -1,8 +1,8 @@
 /*  Position set up */
-
+/*
 *{
   border:1px dashed red;
-}
+}*/
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -87,15 +87,12 @@ ul{
 .blog{
   float:left;
   margin-left:140px;
+  margin-top:10px;
 }
 
-.blog a{
-  float:left;
-}
 .blog img{
   float:left;
   padding-right:10px;
-  vertical-align:center;
 }
 
 .blog a span{
@@ -109,7 +106,7 @@ ul{
 .about{
   float:right;
   margin-right:165px;
-  margin-top:5px;
+  margin-top:15px;
 }
 
 .about a{
@@ -165,7 +162,8 @@ ul{
   float:left;
   color:lightgray;
   text-decoration:underline;
-  padding-top:18px;
+  padding-top:16px;
+  padding-left:2px;
 }
 
 
@@ -180,7 +178,7 @@ ul{
 .headerTag > span{
   float:left;
   color:lightgray;
-  padding-top:18px;
+  padding-top:16px;
   padding-left:17px;
 }
 
@@ -325,17 +323,17 @@ footer ul{
   color:blue;
   font-size:56px;
   line-height:.9;
-  padding:45px;
+  padding:48px;
 }
 
 .posts ul{
-  clear:right;
+  clear:both;
 }
 
 .posts ul li{
   float:left;
   margin:0px;
-  width:24.8%;
+  width:25%;
   height:330px;
 }
 
@@ -364,12 +362,41 @@ font-family: 'Oswald' , sans-serif;
   background-color:gray;
 }
 
-.ironyard nav{
-  float:right;
+.logo{
+  float:left;
+  margin-left:165px;
+  margin-top:25px;
 }
 
-
-
-.ironyard ul li{
+.logo img{
   float:left;
+  padding-right:10px;
+}
+
+.logo a span{
+  float:left;
+  text-decoration:none;
+  color:white;
+  font-size:14px;
+  margin-top:10px;
+}
+
+.ironyard nav{
+  float:right;
+  margin-right:165px;
+  margin-top:30px;
+}
+
+.ironyard nav ul li{
+  float:left;
+}
+
+.ironyard nav ul li a{
+  color:white;
+  font-size:13px;
+  text-height:0.9;
+  border-right:1px solid white;
+  text-decoration:none;
+  padding-left:9px;
+  padding-right:9px;
 }
