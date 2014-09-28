@@ -9,7 +9,7 @@ body{
   margin:5px;
 }
 
-h1, h2{
+h1, h2, h3{
   font-family: 'Oswald' , sans-serif;
   margin:0;
   padding:0;
@@ -17,7 +17,7 @@ h1, h2{
 
 header{
   float:left;
-  margin:0 auto;
+  text-align:center;
   height:523px;
   width:1300px;
   overflow:auto;
@@ -42,8 +42,9 @@ footer{
 
 .sidebar{
   float:right;
-  overflow:auto;
-  width:440px;
+  width:280px;
+  margin-right:160px;
+  margin-top:65px;
   height:1008px;
 }
 
@@ -80,9 +81,10 @@ ul{
   float:left;
   margin-left:496px;
   padding:4px;
-  font-size:18px;
+  font-size:17px;
   text-decoration:none;
   color:black;
+  line-height:.9;
 }
 
 .blog{
@@ -128,7 +130,7 @@ ul{
 
 /* Main Body Section Styling */
 .main{
-  padding-top:70px;
+  padding-top:57px;
   padding-left:160px;
   padding-right:87px;
 }
@@ -238,8 +240,77 @@ button span:last-child{
 
 
 /* Sidebar Styling */
+.sidebar > *{
+  float:left;
+  clear:both;
+}
 
+.personInfo{
+  width:100%;
+  text-align:center;
+}
 
+.personInfo > *{
+  float:left;
+}
 
+.personInfo a img{
+  border-radius:10px;
+}
 
+.personInfo a{
+  width:100%;
+  margin:0 auto;
+  clear:both;
+  color:blue;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.personInfo a span{
+  width:100%;
+  margin:0 auto;
+  clear:both;
+}
+
+.personInfo span{
+  width:100%;
+  text-align:center;
+}
+
+.personInfo span a{
+  color:gray;
+  padding:10px;
+  border-right:.5px solid lightgray;
+}
+
+.advertisement{
+  margin-top:55px;
+  margin-bottom:40px;
+}
+
+.advertisement a{
+  margin:0px;
+}
+
+.advertisement a span {
+float:right;
+font-size:15px;
+color:lightgray;
+}
+
+.sidebarInfo h3{
+  color:blue;
+  font-size:18px;
+}
+
+.sidebar p{
+  margin:3px;
+  color:lightgray;
+
+}
 /*Footer Styling */
+
+footer ul li{
+  float:left;
+}
