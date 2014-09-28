@@ -90,6 +90,11 @@ background-color:rgba(8,52,82,1);
   font-size:102px;
   text-decoration:none;
   line-height:.9;
+  transition:text-shadow 0.5s linear;
+}
+
+.title a:first-child:hover{
+  text-shadow:rgba(8,52,82,1) 5px 5px 10px;
 }
 
 .title a:last-child{
@@ -99,6 +104,11 @@ background-color:rgba(8,52,82,1);
   font-size:15px;
   text-decoration:none;
   line-height:.9;
+  transition:color 1.5s linear;
+}
+
+.title a:last-child:hover{
+  color:white;
 }
 
 .blog{
@@ -110,15 +120,25 @@ background-color:rgba(8,52,82,1);
 .blog img{
   float:left;
   padding-right:10px;
+  transition: transform 1.5s ease 0s;
+}
+
+.blog img:hover{
+  transform:rotate(360deg);
+  content:url("assets/logo-white.png");
 }
 
 .blog a span{
   float:left;
   text-decoration:none;
   margin-top:10px;
+  transition: font-size 1.5s ease 0s;
 }
 
-
+.blog a span:hover{
+  color:white;
+  font-size:24px;
+}
 .about{
   float:right;
   margin-right:165px;
@@ -131,10 +151,23 @@ background-color:rgba(8,52,82,1);
   text-decoration:none;
   font-size:18px;
   font-weight:bold;
+  transition: font-size 1.5s ease;
+}
+
+.about a:hover{
+  color:white;
+  font-size:24px;
 }
 .about img{
   float:right;
   padding-left:5px;
+  transition: width 1.5s, height 1.5s ease;
+}
+
+.about img:hover{
+  content:url("assets/search-icon-white.png");
+  width:25px;
+  height:25px;
 }
 
 /* Main Body Section Styling */
@@ -222,6 +255,10 @@ button{
   font-family: 'Open Sans', sans-serif;
   border:none;
   margin:3px;
+}
+
+button:hover{
+filter:invert(100%);
 }
 
 button span:first-child{
@@ -354,8 +391,9 @@ footer ul{
 }
 
 .posts ul li a{
-text-decoration:none;
-font-family: 'Oswald' , sans-serif;
+  text-decoration:none;
+  font-family: 'Oswald' , sans-serif;
+  box-shadow:inset 100% 100% rgba(8,52,82,1);
 }
 
 .posts ul li a span{
