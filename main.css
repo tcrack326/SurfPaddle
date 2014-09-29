@@ -35,7 +35,7 @@ footer{
   float:left;
   height:573px;
   width:1300px;
-  border-top:1px solid gray;
+  border-top:1px solid HSLA(206, 18%, 69%, 1);
 }
 
 .sidebar{
@@ -239,6 +239,10 @@ article a{
   color:lightgray;
 }
 
+article a:hover{
+  color:HSLA(206, 84%, 38%, 1);
+}
+
 blockquote{
   font-size:26px;
   border-left: 2px solid RGBA(163, 179, 191, 1);
@@ -255,11 +259,9 @@ button{
   font-family: 'Open Sans', sans-serif;
   border:none;
   margin:3px;
+  background-color:none;
 }
 
-button:hover{
-filter:invert(100%);
-}
 
 button span:first-child{
   float:left;
@@ -282,6 +284,9 @@ button span:last-child{
   line-height:0.9;
 }
 
+button span:last-child:hover{
+  background-color:HSLA(206, 84%, 38%, 1);
+}
 
 
 /* Sidebar Styling */
@@ -388,25 +393,39 @@ footer ul{
   margin:0px;
   width:25%;
   height:330px;
+  background-color:HSLA(206, 84%, 38%, 1);
+  color:HSLA(204, 82%, 18%, 1);
+}
+
+.posts ul li:hover{
+  background-color:none;
+  color:white;
 }
 
 .posts ul li a{
+  float:left;
+  height:330px;
   text-decoration:none;
   font-family: 'Oswald' , sans-serif;
-  box-shadow:inset 100% 100% rgba(8,52,82,1);
+  opacity:0.2;
+  background-color:HSLA(206, 84%, 38%, 1);
 }
 
-.posts ul li a span{
+.posts ul li a:hover{
+  opacity:1;
+}
+.posts ul li span{
   position:relative;
-  color:white;
+  font-family: 'Oswald' , sans-serif;
+  left:14px;
+  bottom:46px;
   width:220px;
   font-size:28px;
-  bottom:56px;
-  left:16px;
 }
+
 /* hack for the third caption with wrapped text */
-.posts ul li a span#long{
-  bottom:95px;
+.posts ul li span#long{
+  bottom:86px;
 }
 
 .ironyard{
@@ -435,6 +454,12 @@ footer ul{
   text-decoration:none;
   font-size:14px;
   margin-top:10px;
+  transition:color 0.25s linear, font-size 0.25s linear;
+}
+
+.logo a span:hover{
+color:white;
+font-size:16px;
 }
 
 .ironyard nav{
@@ -454,4 +479,10 @@ footer ul{
   text-decoration:none;
   padding-left:9px;
   padding-right:9px;
+  transition:color 0.25s linear, font-size 0.25s linear;
+}
+
+.ironyard nav ul li a:hover{
+  color:white;
+  font-size:16px;
 }
